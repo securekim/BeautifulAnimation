@@ -1,11 +1,12 @@
 <html>
     <head>
-        <link rel="stylesheet" href="assets/css/button.css" />
         <link rel="stylesheet" href="assets/css/lib/themes/relax.css" />
         <link rel="stylesheet" href="assets/css/lib/themes/nest.css" />
         <link rel="stylesheet" href="assets/css/lib/noty.css" />
         <link rel="stylesheet" href="assets/css/lib/sweetalert2.min.css" />
         <link rel="stylesheet" href="assets/css/lib/animate.min.css" />
+        <link rel="stylesheet" href="assets/css/button.css" />
+        <link rel="stylesheet" href="assets/css/animation.css" />
     <body>
         <div>
 <!-- /* https://getcssscan.com/css-buttons-examples */ -->
@@ -23,11 +24,22 @@
                     alert_inputTextArea
                 </span>
             </button>
-            <button class="button-85" onClick="beautifulAnimation('.button-85', 'shakeX')">Disappear - Animation</button>
+            <button class="button-85" 
+                onClick="beautifulAnimation('.button-85', 'shakeX')">Appear - Animation</button>
+            <div style="height:800px"> <br><br><a href="#bookmark"><h1> ⏬ SCROLL DOWN ⏬ </h1></a></div>
+            <div id = "bookmark"></div>
+            <button class="doongdoong button-49" onClick='_alert("title", "text", "info")'>Alert</button>
+            <div class = "wow animate__animated animate__bounce">
+                <button class="button-27" 
+                    onClick="beautifulAnimation('.button-27', 'shakeY')">Click Animation</button>
+                    
+            </div>
+            
         </div>
         <script src="assets/js/lib/noty.min.js" type="text/javascript"></script>
         <script src="assets/js/lib/mo.min.js" type="text/javascript"></script>
         <script src="assets/js/lib/sweetalert2.min.js" type="text/javascript"></script>
+        <script src="assets/js/lib/wow.min.js"></script>
         <script src="assets/js/noty.js" type="text/javascript"></script>
         <script src="assets/js/alert.js" type="text/javascript"></script>
         <script src="assets/js/animate.js" type="text/javascript"></script>

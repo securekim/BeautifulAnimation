@@ -1,0 +1,10 @@
+
+.doongdoong {
+    animation:doongdoong 1s infinite alternate;  
+  }
+  
+  
+  @keyframes doongdoong{
+    0%{transform:translate(0,0);}
+    100%{transform:translate(0,-20px);}
+  }  
