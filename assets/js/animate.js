@@ -1,4 +1,4 @@
-const animate = (element, animation, prefix = 'animate__') =>
+const beautifulAnimation = (element, animation, prefix = 'animate__') =>
   // We create a Promise and return it
   new Promise((resolve, reject) => {
     const animationName = `${prefix}${animation}`;
@@ -16,7 +16,7 @@ const animate = (element, animation, prefix = 'animate__') =>
     node.addEventListener('animationend', handleAnimationEnd, {once: true});
   });
   
-animate('.button-85', 'backInDown').then((message) => {
+beautifulAnimation('.button-85', 'backInDown').then((message) => {
     // Do something after the animation
-    animate('.button-85', 'shakeY')
+    beautifulAnimation('.button-85', 'shakeY')
 });
