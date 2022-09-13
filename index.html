@@ -12,10 +12,13 @@
 <!-- /* https://getcssscan.com/css-buttons-examples */ -->
             <button class="button-1" 
                 onClick='noty(`<div class=\"text-left\">Im an example notification. <strong>Hi!</strong></div>`)'>NOTY</button>
-            <button class="button-53" 
+            
+            <button class="wow animate__animated animate__hinge button-53" 
                 onClick='_alert_selectAndYesOrNo("title","Select it!", ["Select your option","Option1","AlreadySelectedOption2","AlreadySelectedOption3","Option4"],[2,3])'>alert_selectAndYesOrNo</button>
+            
             <button class="button-55" 
                 onClick='_alert_outputTextArea("title", "<h1>HI</h1>", ["abc","def","ghi"])'>alert_outputTextArea</button>
+            
             <button class="button-82-pushable" 
                 onClick='_alert_inputTextArea("title")'>
                 <span class="button-82-shadow"></span>
@@ -26,7 +29,11 @@
             </button>
             <button class="button-85" 
                 onClick="beautifulAnimation('.button-85', 'shakeX')">Appear - Animation</button>
-            <div style="height:800px"> <br><br><a href="#bookmark"><h1> ⏬ SCROLL DOWN ⏬ </h1></a></div>
+            <div style="height:800px"> <br><br>
+                <a href="#bookmark">
+                    <h1 class="wow animate__animated animate__flipInX" > ⏬ SCROLL DOWN ⏬ </h1>
+                </a>
+            </div>
             <div id = "bookmark"></div>
             <button class="doongdoong button-49" onClick='_alert("title", "text", "info")'>Alert</button>
             <div class = "wow animate__animated animate__bounce">
